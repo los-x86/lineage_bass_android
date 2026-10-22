@@ -11,4 +11,8 @@
   <!-- Device tree -->
   <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-tv-x86" sync-s="true" />
 
+  <!-- Houdini & NDK_Translation -->
+  <project path="vendor/intel/proprietary/houdini" name="supremegamers/vendor_intel_proprietary_houdini" revision="hpe-14" />
+  <project name="WayDroid-ATV/vendor_google_proprietary_ndk_translation-prebuilt" path="vendor/google/proprietary/ndk_translation-prebuilt" remote="ghub" revision="16fb3b1f1f75f68acaa1f90d190ffe116508e70a" upstream="refs/heads/16arm_16arm64" dest-branch="refs/heads/16arm_16arm64" groups="local::02-waydroid" clone-depth="1" />
+  
 </manifest>
