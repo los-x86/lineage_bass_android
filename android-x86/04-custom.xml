@@ -9,7 +9,7 @@
   <project path="external/libisoburn" name="external_libisoburn" remote="ag-github" revision="11-x86" />
 
   <!-- Device tree -->
-  <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-tv-x86" sync-s="true" />
+  <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-x86" sync-s="true" />
 
   <!-- Houdini & NDK_Translation -->
   <project path="vendor/intel/proprietary/houdini" name="supremegamers/vendor_intel_proprietary_houdini" revision="hpe-14" />
